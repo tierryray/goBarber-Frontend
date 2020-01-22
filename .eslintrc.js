@@ -39,6 +39,9 @@ module.exports = {
         paths: ['src'],
         extensions: ['.js', '.jsx'],
       },
+      'babel-plugin-root-import': {
+        rootPathSuffix: 'src',
+      },
     },
   },
 };
